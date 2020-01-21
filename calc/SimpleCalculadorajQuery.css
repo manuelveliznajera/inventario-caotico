@@ -1,0 +1,108 @@
+
+.btn3d.btn-white {
+    color: #666666;
+    /*box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0,0,0,.2);*/
+    background-color:#fff;
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
+    border-radius: 0rem;
+    font-size: 3rem
+   
+}
+
+.btn3d.btn-primary2 {
+    background-color: #f7f7f7;
+    /* color: #666666; */
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
+    border-radius: 0rem;
+    font-size: 3rem;
+    color: #0093c1;
+}
+
+.btn3d.btn-danger {
+    background-color:#D73814;
+    color: #666666;
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
+    border-radius: 0rem;
+    font-size: 3rem
+}
+
+
+
+
+.btn3d.btn-success {
+    background-color:#78d739;
+}
+
+.btn3d.btn-info {
+    background-color:#39B3D7;
+}
+.btn3d.btn-warning {
+    background-color:#FEAF20;
+    /*color: #666666;*/
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
+    border-radius: 0rem;
+    font-size: 3rem
+}
+
+.txtr{
+height:67px;
+font-size:44px;
+text-align:right;
+margin-bottom:20px;
+/*box-shadow:inset 3px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.txtr2{
+height:67px;
+font-size: 1.2em;;
+text-align:right;
+margin-bottom:20px;
+/*box-shadow:inset 3px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.mbottom{
+  marginBottom: '50px';
+  margin: 0px;
+  padding: 0px;
+}
+.calculadoraBase {
+    /* display: inline-block; */
+    /* padding: 6px 12px; */
+    /* margin-bottom: 0; */
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 1.42857143; */
+    /* text-align: center; */
+    /* white-space: nowrap; */
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* background-image: none; */
+    border: 1px solid transparent;
+    /* border-radius: 4px; */
+    /* color: #666666; */
+    /* box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0,0,0,.2); */
+    /* background-color: #f9f9f9; */
+    /* position: relative; */
+    /* top: -6px; */
+    /* border: 0; */
+    -moz-outline-style: none;
+    /* outline: medium none; */
+    transition: all 0.00;
+}
+.mtop {
+    /* margin-top: 10%; */
+}

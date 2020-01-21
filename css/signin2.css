@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  /*
+  align-items: center; */
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #d23e3e;
+}
+.datox{
+  background-color: #D5EEFB;
+  height: 75px;
+}
+.datox2{
+  background-color: #D5EEFB;
+  height: 50px;
+}
+.nuevosdatos{
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+}
+.dimensiones_app{
+  padding-top: 30px;
+  max-width: 600PX;
+  width: 100%;"
+}
+.bg-dark {
+    background-color: rgba(12, 49, 99, 1)!important;
+}
+
+
+.table {
+    width: 100%; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.fondopelota {
+  background-image: url(' ../img/pelo.png')
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+@media (max-width: 800px) { 
+    body {
+      
+      display: -ms-flexbox;
+      display: -webkit-box;
+     /*
+      display: unset; */
+      /*
+      display: inline-block;
+      */
+      align-items: baseline;
+    }
+    .tablaresultados{
+      padding-left: 6%;
+      padding-right: 6%;
+     }
+    .tablaresultados3{
+      padding-left: 6%;
+      padding-right: 6%;
+     }
+    .tablaresultados2{
+      padding-left: 6%;
+      padding-right: 6%;
+     }
+     .tabla_completa{
+      width: 100%;
+     }
+    .table {
+      width: 100%;
+    }
+    .navbar-toggler {
+    font-size: 0.9rem;
+    }
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 801) { 
+      body {
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-align: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #d23e3e;
+    }
+    .navbar-toggler {
+    font-size: 1.25rem;
+    }
+
+        
+    .tablaresultados{
+      padding-left: 1%;
+      padding-right: 1%;
+      width: 100%;
+    }
+    .tablaresultados2{
+      padding-left: 1%;
+      padding-right: 1%;
+      width: 100%;
+    }
+     .tabla_completa{
+      width: 100%;
+    }
+    .table {
+    width: 100%;
+    }
+}
